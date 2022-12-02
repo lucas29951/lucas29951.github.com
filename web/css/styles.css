@@ -189,16 +189,20 @@ body {
     margin: 0 32px; 
     color: #fff; 
     opacity: 1;
+    visibility: visible;
   }  
 
   .tabs label:nth-child(5){
-    opacity: 0;
+    /*opacity: 0;*/
+    visibility: visible;
   }
   .tabs label:nth-child(6){
-    opacity: 0;
+    /*opacity: 0;*/
+    visibility: visible;
   }
   .tabs label:nth-child(7){
-    opacity: 0;
+    /*opacity: 0;*/
+    visibility: visible;
   }
 
   .tabs label:hover {
@@ -275,6 +279,7 @@ body {
     line-height: 10px;
   }
   .compets span {
+    font-weight: 500;
     text-transform: uppercase;
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent!important;
@@ -285,6 +290,7 @@ body {
     font-family:'honeybee';
     letter-spacing: -4px;
     font-size: 8px;
+    font-weight: 600;
     margin-right: 5px;
   }
   .compets2 {
@@ -565,12 +571,13 @@ body {
       margin: 0 10px;
       padding-right: 10px;
       color: #fff; 
-      opacity: 0;
+      /*opacity: 0;*/
+      visibility: hidden;
     } 
  
-    .tabs label:nth-child(5){opacity: 1;}
-    .tabs label:nth-child(6){opacity: 1;}
-    .tabs label:nth-child(7){opacity: 1;}
+    .tabs label:nth-child(5){opacity: 1;visibility: visible;}
+    .tabs label:nth-child(6){opacity: 1;visibility: visible;}
+    .tabs label:nth-child(7){opacity: 1;visibility: visible;}
 
     .fiche-histoire {
       margin: 40px;
